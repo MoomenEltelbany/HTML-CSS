@@ -99,8 +99,8 @@ section.imagem > p
         section#img01
             {
                 background-image: url('../imagens/background001.jpg');
-                background-position: right center;
-                background-attachment: fixed;
+                background-position: right center !important;
+                background-attachment: fixed !important;
             }
 
         section#img02
