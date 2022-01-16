@@ -94,19 +94,18 @@ section.imagem > p
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.596);
 }
 
-@media screen and (min-width:320px)
+@media screen and (max-width:320px)
     {
         section#img01
             {
                 background-image: url('../imagens/background001.jpg');
-                background-position: right center !important;
-                background-attachment: fixed !important;
+                background-size: 100% 100%;
             }
 
         section#img02
             {
                 background-image: url('../imagens/background002.jpg');
-                background-attachment: fixed;
+                background-size: 100% 100%;
             }
     }
 
