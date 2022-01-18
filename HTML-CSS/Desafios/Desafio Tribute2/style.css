@@ -163,3 +163,21 @@ footer a {
     text-decoration: none;
     color: rgb(161, 143, 228);
 }
+
+
+@media all and (max-width: 600px) {
+    aside#info{
+        position: absolute;
+        top: 1600px;
+        left: 100px;
+    }
+
+    aside#more-info {
+        width: 100%;
+        height: 571px;
+        background-color: rgb(197, 197, 197);
+        margin: 1100px auto 20px auto;
+        padding: 10px;
+        box-shadow: 2px 2px 2px rgb(0 0 0 / 32%);
+    }    
+}
