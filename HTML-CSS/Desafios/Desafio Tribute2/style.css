@@ -168,8 +168,8 @@ footer a {
 @media all and (max-width: 600px) {
     aside#info{
         position: absolute;
-        top: 1600px;
-        left: 100px;
+        top: 100rem;
+        left: 6.2rem;
     }
 
     aside#more-info {
@@ -177,7 +177,7 @@ footer a {
         height: 571px;
         background-color: rgb(197, 197, 197);
         margin: 1100px auto 20px auto;
-        padding: 10px;
+        padding-bottom: 10rem;
         box-shadow: 2px 2px 2px rgb(0 0 0 / 32%);
     }    
 }
