@@ -95,6 +95,7 @@ div#essay1, div#essay2, div#essay3{
 textarea{
     border-radius: 5px;
     margin-left: 50px;
+    width: 80%;
 }
 
 button{
