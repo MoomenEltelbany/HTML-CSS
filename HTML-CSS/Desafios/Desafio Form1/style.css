@@ -44,6 +44,10 @@ fieldset{
     border: 1px solid gray;
 }
 
+fieldset#essay-section{
+    width: 70%;
+}
+
 legend{
     text-transform: capitalize;
     font-weight: bold;
@@ -85,6 +89,7 @@ div#extra-info, div#extra-info2{
 
 div#essay1, div#essay2, div#essay3{
     padding: 30px;
+    width: 70%;
 }
 
 textarea{
