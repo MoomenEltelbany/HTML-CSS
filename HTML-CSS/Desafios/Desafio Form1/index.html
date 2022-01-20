@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Form 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <!-- Creating the Header -->
+        <h1>
+            application for permission to date one of my children
+        </h1>
+        <p><strong>Note:</strong> Form is to be completed at least 21 days prior to the date</p>
+
+        <!-- Creating the form -->
+        <form action="Pass">
+            <fieldset>
+                <!-- The first mainset which is about personal information -->
+                <legend>personal details</legend>
+                <div>
+                    <label for="name">name: </label>
+                    <input type="text" name="name" id="name" placeholder="Enter name here">
+                </div>
+                <dive>
+                    <label for="address">address: </label>
+                    <input type="text" name="address" id="address" placeholder="Enter your address here">
+                </dive>
+                <div>
+                    <label for="email">e-mail: </label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email here">
+                </div>
+                <div>
+                    <label for="number">phone number: </label>
+                    <input type="number" name="number" id="number"  maxlength="10" size="10" placeholder="Enter your phone number">
+                </div>
+                <div>
+                    <label for="iq">IQ: </label>
+                    <input type="number" name="iq" id="iq" placeholder="Enter your IQ here">
+                </div>
+                <label for="gender" id="gender">gender:</label>
+                <p id="gender">
+                    <input type="radio" name="gender" id="Male" value="Male" checked>Male <br>
+                    <input type="radio" name="gender" id="Female" value="Female"> Female
+                </p>
+                <div>
+                    <label for="date">date of proposed outing</label>
+                    <input type="date" name="date" id="date">
+                </div>
+            </fieldset>
+
+            <!-- Check all the apply fieldset -->
+            <fieldset>
+                <legend>
+                    check the apply
+                </legend>
+                <div>
+                    <input type="checkbox" name="tatto" id="tatto">
+                    <span>I have tattos and/or piercing</span>
+                </div>
+                <div>
+                    <input type="checkbox" name="age" id="age" checked>
+                    <span>I am more than 2 years older than your child</span>
+                </div>
+                <div>
+                    <input type="checkbox" name="car" id="car">
+                    <span>I have my own car</span>
+                </div>
+                <div>
+                    <input type="checkbox" name="job" id="job" checked>
+                    <span>I work full-time job</span>
+                </div>
+                <div>
+                    <input type="checkbox" name="parents" id="parents">
+                    <span>My parents are rich</span>
+                </div>
+                <div>
+                    <input type="checkbox" name="date-place" id="date-place" checked>
+                    <span>Is the date in a well lit public location</span>
+                </div>
+            </fieldset>
+
+            <!-- Extra information part -->
+            <fieldset>
+                <legend>extra information</legend>
+                <div id="extra-info">
+                    <label for="politics">political persuation: </label>
+                    <select name="politics" id="politics">
+                        <option value="1">Left Wing</option>
+                        <option value="2">Right Wing</option>
+                        <option value="3">Conservative</option>
+                        <option value="4">Nazi</option>
+                    </select>
+                </div>
+                <div id="extra-info2">
+                    <label for="college">education level completed </label>
+                    <select name="college" id="college">
+                        <option value="1">University</option>
+                        <option value="2">College</option>
+                        <option value="3">High School</option>
+                        <option value="4">None</option>
+                    </select>
+                </div>
+            </fieldset>
+
+            <!-- Essay questions part -->
+            <fieldset>
+                <legend>essay section</legend>
+                <div id="essay1">
+                    <p>In 50 words or more explain why you want to date my kid</p>
+                    <textarea name="why-question" id="why-question" cols="40" rows="5" placeholder="Enter Text Here"></textarea>
+                </div>
+                <div id="essay2">
+                    <p>Please upload contact for details for 2 references</p>
+                    <textarea name="why-question" id="why-question" cols="40" rows="5" placeholder="Enter Text Here"></textarea>
+                </div>
+                <div id="essay3">
+                    <p>Upload Police Clearance, Bank statement and Medical Certificates here: </p>
+                    <button>attach files</button>
+                </div>
+            </fieldset>
+        </form>
+        <!-- Send button -->
+        <button id="main-btn">Send Your Application</button>
+    </main>
+</body>
+</html>

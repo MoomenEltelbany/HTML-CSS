@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Anaheim&display=swap');
+
+body{
+    background-color: rgba(253, 255, 163, 0.671);
+    font-family: 'Anaheim', sans-serif;
+}
+main{
+    width: 70%;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+h1{
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 1.7em;
+    margin: 15px;
+    padding-top: 10px;
+}
+
+p{
+    margin: 25px;
+}
+
+form{
+    margin: 0 auto;
+    width: 80%;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.486);
+    padding: 1em;
+}
+
+fieldset{
+    margin: 10px;
+    text-align: left;
+    border: 1px solid gray;
+}
+
+legend{
+    text-transform: capitalize;
+    font-weight: bold;
+    padding: 5px;
+}
+
+label{
+    text-transform: capitalize;
+    padding: 10px;
+    display: inline-block;
+    width: 80px;
+    text-align: right;
+}
+
+input{
+    margin: 8px;
+    border-radius: 3px;
+    padding: 4px;
+}
+
+input#date, select{
+    background-color: rgba(128, 128, 128, 0.24);
+    color: rgba(101, 101, 253, 0.842);
+    border-radius: 5px;
+}
+
+::placeholder{
+    color: rgba(128, 128, 128, 0.514);
+}
+
+
+p#gender{
+    margin: 0px 0px 10px 55px;
+}
+
+div#extra-info, div#extra-info2{
+    margin: 10px;
+}
+
+div#essay1, div#essay2, div#essay3{
+    padding: 30px;
+}
+
+textarea{
+    border-radius: 5px;
+    margin-left: 50px;
+}
+
+button{
+    width: 85px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    text-transform: capitalize;
+    font-weight: bold;
+    padding: .3em;
+    margin-left: 10%;
+    border: none;
+}
+
+button#main-btn{
+    width: 200px;
+    height: 40px;
+    font-size: 1.1rem;
+    display: block;
+    margin: 7px auto;
+
+}
