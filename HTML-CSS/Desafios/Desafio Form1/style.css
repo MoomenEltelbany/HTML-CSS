@@ -118,3 +118,16 @@ button#main-btn{
     margin: 7px auto;
 
 }
+
+@media screen and(max-width= 350px) {
+    fieldset#essay-section{
+        width: 70%;
+    }
+
+    textarea{
+        border-radius: 5px;
+        margin-left: 50px;
+        width: 80%;
+    }
+    
+}
